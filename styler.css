@@ -1,0 +1,205 @@
+body{
+	background:white;
+	color:black;
+	font-family: Tahoma;
+	font-size:18px;
+	overflow:auto;
+}
+
+h1,h2,h3{
+	text-align: center;
+	padding-left:5%;
+	color:#828282;
+}
+
+p{
+	padding:2%;
+	}
+
+img{
+	text-align: center;
+	max-width: 100%;
+	height:auto;
+	width:auto;
+}
+
+#wrapper{
+	border:solid 1px gray;
+	max-width:1280px;
+	margin:0 auto;
+	width: 98%;
+	background: #Fefefe;
+	border-radius: 2px;
+	box-shadow: 0 0 10px 0px rgba(0,0,0,0.8);
+}
+
+#callus{
+	width: 100%;
+	height:auto;
+	background: #202020;
+		font-weight:bold;
+	overflow:hidden;
+}
+
+#callus p{
+	color:white;
+	text-align: right;
+	font-size:14px;
+	padding:0.1% 5% 0 0 ;
+}
+
+header{
+	width:100%;
+	min-height: 125px;
+	padding:5px;
+	text-align: center;
+}
+
+nav ul{
+	list-style:none;
+	margin: 0;
+	padding-left: 50px;
+}
+nav ul li{
+	float:left;
+	border:2px solid #797979;
+	width:15%;
+}
+
+nav ul li a{
+	background: #202020;
+	display:block;
+	padding:5% 12%;
+	font-size:18px;
+	color:white;
+	text-decoration: none;
+	text-align: center;
+}
+
+nav ul li a:hover, nav ul li.active a{
+	background: gray;
+	font-weight:bold;
+}
+
+.banner img{
+	width: 70%;
+}
+.clearfix{
+	clear:both;
+}
+
+.leftcol{
+  width: 55%;
+  float: left;
+  margin:2% 1% 1% 2%;
+		}
+
+.sidebar{
+	width: 40%;
+	float:right;
+	margin:1px;
+
+}
+
+.sideimg{
+	float:left;
+	margin: 0 auto;
+	width: 100%;
+	height: auto;
+	padding:1%;
+
+}
+.section{
+	width:29%;
+	float:left;
+	margin: 2%;
+	text-align: center;
+}
+
+.section img{
+	width: 250px;
+	height: 300px;
+}
+.sideimg img{width: 350px;height:350px;}
+
+.bgoperation{
+	width: 100%;
+}
+#img{ width:50%;
+ height:auto;}
+
+ .bgoperation h3{
+ 	background: #202020;
+ 	color:white;
+ 	padding:5px;
+ 	margin:0;
+ 	overflow:hidden;
+ }
+
+footer{
+	background: #202020;
+	width: 100%;
+	overflow: hidden;
+}
+
+footer p, footer h3{
+	color:white;
+}
+
+footer p a{
+	color: white;
+	text-decoration: none;
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	display: inline;
+}
+
+.fsec ul li img{
+	height: 50px;width: 50px;
+}
+
+@media screen and (max-width:478px){
+	body{
+		font-size: 13px;
+	}
+	
+}
+
+@media screen and (max-width:740px){
+	nav{
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	nav ul{
+		list-style: none;
+		margin: 0 auto;
+		padding-left: 0;
+	}
+
+	nav ul li{
+		text-align: center;
+		margin: 0 auto;
+		width: 100%;
+
+	}
+	.leftcol{
+		width:100%;
+	}
+	.sidebar{
+		width: 100%;
+	}
+    .section{
+    	width: 100%;
+    	float:left;
+    	margin: 0;
+    }
+
+
+}
